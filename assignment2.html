@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="about">About Me</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <p>Hello! I am [Your Name], a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <img src="https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>Netflix is all about connecting people to the movies they love. To help customers find those movies, they developed world-class movie recommendation system: CinematchSM. Its job is to predict whether someone will enjoy a movie based on how much they liked or disliked other movies. Netflix use those predictions to make personal movie recommendations based on each customer’s unique tastes. And while Cinematch is doing pretty well, it can always be made better. Now there are a lot of interesting alternative approaches to how Cinematch works that netflix haven’t tried. Some are described in the literature, some aren’t. We’re curious whether any of these can beat Cinematch by making better predictions. Because, frankly, if there is a much better approach it could make a big difference to our customers and our business. .</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <img src="https://images.pexels.com/photos/16564261/pexels-photo-16564261/free-photo-of-chatgpt-webpage-open-on-smartphone.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>A chatbot (originally chatterbot)[1] is a software application or web interface that is designed to mimic human conversation through text or voice interactions.[2][3][4] Modern chatbots are typically online and use generative artificial intelligence systems that are capable of maintaining a conversation with a user in natural language and simulating the way a human would behave as a conversational partner. Such chatbots often use deep learning and natural language processing, but simpler chatbots have existed for decades.
+
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project Three</h3>
+            <img src="https://media.istockphoto.com/id/1297832787/photo/biometric-security-scan.jpg?b=1&s=612x612&w=0&k=20&c=lNIHYCgQqzal8nMyE1xhtnFQcwQN6G3UDunENNF-qoA=" alt="">
+            <p>A brief description of Project Three.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
